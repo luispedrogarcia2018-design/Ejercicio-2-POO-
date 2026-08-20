@@ -10,3 +10,7 @@ Para la clase de Usuario están los siguientes métodos: dos, los cuales pregunt
 Se utilizará un arreglo para almacenar las calificaciones de los usuarios, esto para evitar que excedan el máximo de estas. Este arreglo almacenará datos de tipo entero. Aparte, se usará un arreglo para almacenar los nombres de las películas, para que los usuarios sepan las películas que han calificado
 
 En la clase main, se han determinado cuatro métodos, uno para cada opción: registrar la calificación, modificar la calificación, mostrar las calificaciones y un resumen estadístico de las calificacions, estos se distinguiran entre sí mediante el atributro asignado en la interfaz, en este caso, una opción para el usuario
+
+A los objetos iniciales se les asignará un valor de none, en lo que el usuario ingresa un valor, se los proveeremos mediante preguntas al usuario y scanners.
+
+Las posiciones las recorreremos mediante un bucle while, con una variable contador que indica que el usuario ha alcanzado el límite de calificaciones, así determinando las posiciones y la siguiente.
