@@ -29,8 +29,8 @@ public static void RegistrarPeliculas(){
                 }
             }
                 else{
-                System.err.println("Error, solo le quedan "+ Limite +
-                 " ,se usarán solo esas posiciones");
+                    System.err.println("Error, solo le quedan "+ Limite +
+                    ",  se usarán solo esas posiciones");
                 for(int i = 1; i<=Limite ; i++){
                     Pelicula pelicula = new Pelicula();
 
@@ -42,6 +42,7 @@ public static void RegistrarPeliculas(){
                     }
                 }
             }
+            Limite = 10-usuarioActual.getPeliculas().size();
         }
 
 public static void ModificarCalificacion(){
@@ -137,6 +138,7 @@ public static void MostrarCalificacion(){
 }
 
 public static void MostrarPosiciones(){
+    Limite = 10-usuarioActual.getPeliculas().size();
     System.out.println("Por ahora, le quedan: " + Limite + " películas");
 }
 

@@ -41,12 +41,6 @@ public int setCalificacion(){
     System.out.println("Ingrese la calificacion nueva (del 1 al 10): ");
     this.calificacion = scanner.nextInt();
     scanner.nextLine();
-    if (calificacion<0){
-        System.err.println("Error, solo se puede una calificación de 1 a 10");
-    }
-    if (calificacion>10){
-        System.err.println("Error, solo se puede una calificación de 1 a 10");
-    }
     return calificacion;
     
 }
